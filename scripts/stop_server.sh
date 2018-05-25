@@ -1,9 +1,9 @@
 #!/bin/bash
 isExistApp=`pgrep httpd`
 if [[ -n  $isExistApp ]]; then
-   service httpd stop
+   echo "hello exit"
 fi
 isExistApp=`pgrep mysqld`
 if [[ -n  $isExistApp ]]; then
-    service mysqld stop
+   echo "hello exit"
 fi
